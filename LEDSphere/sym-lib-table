@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "UCC27714")(type "KiCad")(uri "${KIPRJMOD}/LedSphereSymbols/UCC27714.kicad_sym")(options "")(descr ""))
+)

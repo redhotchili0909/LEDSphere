@@ -2,9 +2,51 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 8d0a4ff4-8029-4d05-9903-1dd7927a3bac)
+	(uuid "8d0a4ff4-8029-4d05-9903-1dd7927a3bac")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 82.55 33.02)
+		(size 76.2 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ee5e47e-627d-4c69-9257-1bd070197563")
+		(property "Sheetname" "SpherePowerTxBoard"
+			(at 82.55 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_tx.kicad_sch"
+			(at 82.55 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LEDSphere"
+				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
