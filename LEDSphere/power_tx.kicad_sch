@@ -17241,6 +17241,7 @@
 	(symbol
 		(lib_id "Transistor_FET:Si2319CDS")
 		(at 345.44 151.13 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17248,10 +17249,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8d490653-0b06-49e9-92a1-4f6b32960c6a")
 		(property "Reference" "Q8"
-			(at 351.79 149.8599 0)
+			(at 351.79 152.4001 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17262,7 +17262,7 @@
 			)
 		)
 		(property "Value" "Si2319CDS"
-			(at 351.79 152.3999 0)
+			(at 351.79 149.8601 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17273,7 +17273,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 350.52 153.035 0)
+			(at 350.52 149.225 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17286,7 +17286,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/66709/si2319cd.pdf"
-			(at 350.52 154.94 0)
+			(at 350.52 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22067,6 +22067,7 @@
 	(symbol
 		(lib_id "Transistor_FET:Si2319CDS")
 		(at 345.44 130.81 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22074,10 +22075,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eb0b02c6-87bf-405c-a096-258b9796b3b9")
 		(property "Reference" "Q7"
-			(at 351.79 129.5399 0)
+			(at 351.79 132.0801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22088,7 +22088,7 @@
 			)
 		)
 		(property "Value" "Si2319CDS"
-			(at 351.79 132.0799 0)
+			(at 351.79 129.5401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22099,7 +22099,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 350.52 132.715 0)
+			(at 350.52 128.905 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22112,7 +22112,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/66709/si2319cd.pdf"
-			(at 350.52 134.62 0)
+			(at 350.52 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
