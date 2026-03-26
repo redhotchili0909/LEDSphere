@@ -3093,37 +3093,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_Flash:W25Q128JVS"
+		(symbol "Memory_Flash:W25Q128JVP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -8.89 8.89 0)
+				(at -6.35 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "W25Q128JVS"
-				(at 7.62 8.89 0)
+			(property "Value" "W25Q128JVP"
+				(at 7.62 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-				(at 0 0 0)
+			(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3131,8 +3122,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+				(at 0 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
+				(at 0 27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3149,7 +3149,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*5.23x5.23mm*P1.27mm*"
+			(property "ki_fp_filters" "WSON*1EP*6x5mm*P1.27mm*EP3.4x4.3mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3158,10 +3158,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "W25Q128JVS_0_1"
+			(symbol "W25Q128JVP_0_1"
 				(rectangle
 					(start -7.62 10.16)
-					(end 7.62 -10.16)
+					(end 10.16 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3171,7 +3171,7 @@
 					)
 				)
 			)
-			(symbol "W25Q128JVS_1_1"
+			(symbol "W25Q128JVP_1_1"
 				(pin input line
 					(at -10.16 7.62 0)
 					(length 2.54)
@@ -3211,7 +3211,7 @@
 				(pin bidirectional line
 					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "DI(IO0)"
+					(name "DI/IO_{0}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3229,7 +3229,7 @@
 				(pin bidirectional line
 					(at -10.16 0 0)
 					(length 2.54)
-					(name "DO(IO1)"
+					(name "DO/IO_{1}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3247,7 +3247,7 @@
 				(pin bidirectional line
 					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "IO2"
+					(name "~{WP}/IO_{2}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3265,7 +3265,7 @@
 				(pin bidirectional line
 					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "IO3"
+					(name "~{HOLD}/~{RESET}/IO_{3}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3309,6 +3309,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -12.7 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6463,6 +6481,12 @@
 		(uuid "30d9f4bd-6b88-4278-8573-9ca3c3e6ff1d")
 	)
 	(junction
+		(at 64.77 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4031f0bc-8ae9-4791-a8dd-ad04faf4370c")
+	)
+	(junction
 		(at 160.02 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7620,6 +7644,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 133.35) (xy 64.77 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9537459d-8af6-42ac-b6d4-1dacf9bdc0dc")
+	)
+	(wire
+		(pts
 			(xy 64.77 102.87) (xy 60.96 102.87)
 		)
 		(stroke
@@ -7757,6 +7791,16 @@
 			(type default)
 		)
 		(uuid "a61b4d36-9f30-4aad-ab09-dde2ba92fdf5")
+	)
+	(wire
+		(pts
+			(xy 64.77 132.08) (xy 67.31 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e4a40a-ad5b-4b1e-bf2d-6375a982e0bd")
 	)
 	(wire
 		(pts
@@ -10282,6 +10326,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Memory_Flash:W25Q128JVP")
+		(at 64.77 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17b9066b-1b8d-45bf-ab8d-7620ef5adf5a")
+		(property "Reference" "U101"
+			(at 76.2 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W25Q128JVP"
+			(at 76.2 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
+			(at 64.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+			(at 64.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
+			(at 64.77 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "d0db74bb-e21b-4eb5-ac4e-29874b38563e")
+		)
+		(pin "2"
+			(uuid "bcee6727-2a81-4adb-906c-d8019f9ffbdc")
+		)
+		(pin "9"
+			(uuid "06d37501-12d4-4ea9-a6dc-ed8c07ec9302")
+		)
+		(pin "4"
+			(uuid "c8368704-3361-4fc4-bc7b-2d1286463c45")
+		)
+		(pin "8"
+			(uuid "8ecfd9fe-bb54-4b9d-8bfa-1c788bbbac91")
+		)
+		(pin "3"
+			(uuid "44e30090-dcf7-4c4a-b989-809fd80f36d2")
+		)
+		(pin "7"
+			(uuid "de3e7caf-1dae-4296-876c-79246802aea8")
+		)
+		(pin "1"
+			(uuid "2175e615-3fca-4f30-bad1-55897906a199")
+		)
+		(pin "6"
+			(uuid "900b8f65-3237-4757-b81b-22302319f6ae")
+		)
+		(instances
+			(project ""
+				(path "/9292a425-4deb-48f6-8b98-43cd7d592040"
+					(reference "U101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 64.77 92.71 0)
 		(unit 1)
@@ -11966,7 +12101,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 132.08 0)
+		(at 64.77 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11975,7 +12110,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f1a8d9e-230d-4c81-bff7-797f7996d061")
 		(property "Reference" "#PWR0308"
-			(at 64.77 138.43 0)
+			(at 64.77 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11984,7 +12119,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 136.2131 0)
+			(at 64.77 137.4831 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11992,7 +12127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 132.08 0)
+			(at 64.77 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12001,7 +12136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 132.08 0)
+			(at 64.77 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12010,7 +12145,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 132.08 0)
+			(at 64.77 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13792,103 +13927,6 @@
 			(project "display_ctrler"
 				(path "/9292a425-4deb-48f6-8b98-43cd7d592040"
 					(reference "U301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_Flash:W25Q128JVS")
-		(at 64.77 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b69b8ccd-54c8-4479-97a7-34f5160f83ba")
-		(property "Reference" "U302"
-			(at 73.152 118.1679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "W25Q128JVS"
-			(at 73.152 120.5921 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
-			(at 64.77 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/256_W25Q128JV.pdf"
-			(at 64.77 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C97521"
-			(at 64.77 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40f81b39-9b11-4083-8997-640b5e6e118d")
-		)
-		(pin "2"
-			(uuid "80001233-5c37-4193-8c83-034de8aa122f")
-		)
-		(pin "3"
-			(uuid "1d5138e4-bb65-430f-a251-48be699f8b10")
-		)
-		(pin "4"
-			(uuid "11fc5e05-90d7-4b86-bcae-13ad34552cfe")
-		)
-		(pin "5"
-			(uuid "9aef1b4f-ade1-4867-bf8c-e6e476f652a6")
-		)
-		(pin "6"
-			(uuid "bc90b3c2-b3bf-49ee-b10f-d4f632cf2a39")
-		)
-		(pin "7"
-			(uuid "b23261d7-57c9-4b95-8b1a-bdf7a4462891")
-		)
-		(pin "8"
-			(uuid "95302acc-c62d-4054-baf8-ac681edd3133")
-		)
-		(instances
-			(project "display_ctrler"
-				(path "/9292a425-4deb-48f6-8b98-43cd7d592040"
-					(reference "U302")
 					(unit 1)
 				)
 			)
