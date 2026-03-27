@@ -949,6 +949,12 @@
 		(uuid "03c838be-4e09-42a5-b7f3-4a230b8e4114")
 	)
 	(junction
+		(at 213.36 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "084ddd0f-1d64-4a89-b797-2fee45b53d59")
+	)
+	(junction
 		(at 213.36 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -965,6 +971,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20f5aeb6-0ad3-4fb7-a3a1-d5876fb7ed57")
+	)
+	(junction
+		(at 213.36 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "238da6aa-6107-4eb5-9a61-1d3e81728fc2")
 	)
 	(junction
 		(at 83.82 93.98)
@@ -985,12 +997,6 @@
 		(uuid "b495a411-ad83-4b90-8b73-a367a3d342c8")
 	)
 	(junction
-		(at 213.36 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8989ae7-e00f-4528-a368-69dac1c099cd")
-	)
-	(junction
 		(at 224.79 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1001,12 +1007,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3765b36-f8b6-4196-8d57-a15daf303766")
-	)
-	(junction
-		(at 213.36 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc60fca2-bfde-4759-bc14-39109bcc051d")
 	)
 	(junction
 		(at 83.82 85.09)
@@ -1053,16 +1053,6 @@
 			(type default)
 		)
 		(uuid "2eba2256-5525-4f7a-93df-fc354d4dda09")
-	)
-	(wire
-		(pts
-			(xy 194.31 92.71) (xy 213.36 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36eee71c-c6ca-4267-b636-07349a6e419c")
 	)
 	(wire
 		(pts
@@ -1156,6 +1146,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 92.71) (xy 213.36 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5fa8fcd-57ce-4b4c-811a-3a89680c5dfe")
+	)
+	(wire
+		(pts
 			(xy 194.31 101.6) (xy 190.5 101.6)
 		)
 		(stroke
@@ -1217,6 +1217,16 @@
 	(wire
 		(pts
 			(xy 213.36 92.71) (xy 224.79 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e10f285d-e951-4f02-939a-3fd2b3776c83")
+	)
+	(wire
+		(pts
+			(xy 194.31 92.71) (xy 213.36 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1444,82 +1454,6 @@
 			(project "power_rx"
 				(path "/ddd18393-06be-4266-b885-a3f36c5c5ced/1e0692fd-4871-4593-b5f9-72691d060e9d"
 					(reference "C123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 213.36 96.52 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "287e3cd2-4363-4896-bc46-2d558b032e9b")
-		(property "Reference" "R108"
-			(at 218.44 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "49.9"
-			(at 218.44 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 215.138 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25768"
-			(at 213.36 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e0b978b-1550-4804-a576-c720d5a99a43")
-		)
-		(pin "2"
-			(uuid "1e304662-b7f8-4058-ab40-c5d9e94fd81e")
-		)
-		(instances
-			(project "power_rx"
-				(path "/ddd18393-06be-4266-b885-a3f36c5c5ced/1e0692fd-4871-4593-b5f9-72691d060e9d"
-					(reference "R108")
 					(unit 1)
 				)
 			)
