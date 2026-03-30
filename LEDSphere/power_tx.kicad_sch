@@ -6454,9 +6454,9 @@
 		)
 		(uuid "a639ed53-587e-4215-ac6e-f31cdb9769ae")
 	)
-	(text "400nF in total!"
+	(text "250nF in total!"
 		(exclude_from_sim no)
-		(at 386.588 154.94 0)
+		(at 386.588 153.162 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6528,12 +6528,6 @@
 		(uuid "0761581a-67dd-46db-b079-408e30918243")
 	)
 	(junction
-		(at 365.76 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0aa2a1ca-8efe-4bea-8221-4406168e8861")
-	)
-	(junction
 		(at 66.04 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6588,12 +6582,6 @@
 		(uuid "36d7e9a0-dfd4-456f-8993-6790bc6f123e")
 	)
 	(junction
-		(at 378.46 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37d4cffe-535e-479a-b956-422665a7b5fd")
-	)
-	(junction
 		(at 177.8 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6610,12 +6598,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4884037f-5b08-4201-853b-6c796daf5de8")
-	)
-	(junction
-		(at 378.46 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4adb3f6b-0864-40e4-a268-7d59e6077683")
 	)
 	(junction
 		(at 215.9 151.13)
@@ -6640,12 +6622,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5066eef3-6a93-422e-a47c-18f8aa659c2c")
-	)
-	(junction
-		(at 365.76 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "567f46e6-da10-417c-bcb2-4e38637ae322")
 	)
 	(junction
 		(at 146.05 29.21)
@@ -6864,22 +6840,10 @@
 		(uuid "b9c37c40-d417-49ad-80e7-8a2614fe9633")
 	)
 	(junction
-		(at 378.46 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4cbd860-e903-42b9-ac67-71dc9dd87128")
-	)
-	(junction
 		(at 120.65 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c697b11e-2fbb-4169-be84-db5b786292f5")
-	)
-	(junction
-		(at 365.76 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7366ef6-ac18-4efc-973e-227514122237")
 	)
 	(junction
 		(at 365.76 139.7)
@@ -7383,7 +7347,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 161.29) (xy 401.32 161.29)
+			(xy 347.98 161.29) (xy 401.32 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7510,16 +7474,6 @@
 			(type default)
 		)
 		(uuid "23825de9-d8d3-4cfd-9930-d9a4d67ff7ac")
-	)
-	(wire
-		(pts
-			(xy 365.76 149.86) (xy 365.76 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24205169-20e9-4b6f-b912-5ca254bdd282")
 	)
 	(wire
 		(pts
@@ -7970,16 +7924,6 @@
 			(type default)
 		)
 		(uuid "436b5c93-e350-43f9-94fc-b9d0c48f50db")
-	)
-	(wire
-		(pts
-			(xy 365.76 161.29) (xy 378.46 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43bba03d-56f4-47ea-91cd-2619714ce746")
 	)
 	(wire
 		(pts
@@ -8723,16 +8667,6 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 154.94) (xy 368.3 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a913515-3e36-4561-a7d0-7d438f5c1e35")
-	)
-	(wire
-		(pts
 			(xy 365.76 144.78) (xy 365.76 149.86)
 		)
 		(stroke
@@ -8850,16 +8784,6 @@
 			(type default)
 		)
 		(uuid "87747434-53b5-46fd-988b-4b37e9e536c9")
-	)
-	(wire
-		(pts
-			(xy 365.76 154.94) (xy 365.76 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87785f08-5ab9-4612-a74f-a99c2b7150e9")
 	)
 	(wire
 		(pts
@@ -9100,16 +9024,6 @@
 			(type default)
 		)
 		(uuid "9c6e5add-725b-4bc1-acfb-fe85255c62b7")
-	)
-	(wire
-		(pts
-			(xy 347.98 161.29) (xy 365.76 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d39a177-86b9-4025-9307-1a66c03118a5")
 	)
 	(wire
 		(pts
@@ -9403,16 +9317,6 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 154.94) (xy 378.46 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb54493b-ee1a-4f96-bd55-c0c7abf84fdc")
-	)
-	(wire
-		(pts
 			(xy 347.98 135.89) (xy 347.98 139.7)
 		)
 		(stroke
@@ -9570,16 +9474,6 @@
 			(type default)
 		)
 		(uuid "c7640cfd-7b1a-402d-9124-20adaad17772")
-	)
-	(wire
-		(pts
-			(xy 378.46 154.94) (xy 375.92 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c84558a3-1a09-4d69-9067-aa726d372c6d")
 	)
 	(wire
 		(pts
@@ -9760,16 +9654,6 @@
 			(type default)
 		)
 		(uuid "d44ec81a-d60e-4449-89f7-ab033dc56e5f")
-	)
-	(wire
-		(pts
-			(xy 378.46 149.86) (xy 378.46 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d54bb1f9-743a-4714-aae8-43b37569fd90")
 	)
 	(wire
 		(pts
@@ -10962,7 +10846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ff1aa83")
-		(property "Reference" "C20"
+		(property "Reference" "C22"
 			(at 319.2272 138.5316 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11043,7 +10927,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "C?")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -11060,7 +10944,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006101aaa6")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR052"
 			(at 316.23 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -11125,7 +11009,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -11222,7 +11106,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "C?")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -11240,7 +11124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00edd75d-d4db-4fc1-96c4-2643b56c58eb")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR055"
 			(at 396.24 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11302,6 +11186,12 @@
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -11399,7 +11289,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -11483,7 +11373,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11500,7 +11390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "032dadb4-0da7-4582-8758-0328945fb4bd")
-		(property "Reference" "R28"
+		(property "Reference" "R27"
 			(at 312.166 58.674 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11566,9 +11456,9 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R1")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -11647,6 +11537,12 @@
 		(instances
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
 					(reference "#PWR035")
 					(unit 1)
 				)
@@ -11732,6 +11628,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "C15")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11745,7 +11647,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04bef096-bbb0-4761-a2c5-754890ffdd39")
-		(property "Reference" "R30"
+		(property "Reference" "R29"
 			(at 325.12 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11813,7 +11715,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R5")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -11910,7 +11812,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "D?")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -11994,7 +11896,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -12101,7 +12003,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12184,7 +12086,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12264,7 +12166,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "U?")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -12348,7 +12250,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -12444,7 +12346,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -12472,7 +12374,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "6.3uH"
+		(property "Value" "8.1uH"
 			(at 390.144 136.6521 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12531,7 +12433,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "L?")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -12548,7 +12450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "183d7312-3a3f-4e5e-b9aa-ed6598f37580")
-		(property "Reference" "R34"
+		(property "Reference" "R33"
 			(at 382.27 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12616,7 +12518,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R3")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -12712,6 +12614,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12788,6 +12696,12 @@
 		(instances
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
 					(reference "R23")
 					(unit 1)
 				)
@@ -12886,7 +12800,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12903,7 +12817,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b6d061d-cd75-4ef4-a735-225eba836da2")
-		(property "Reference" "R29"
+		(property "Reference" "R28"
 			(at 312.42 66.294 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12971,7 +12885,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R2")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -12988,7 +12902,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1decdd95-9662-40c6-bf8e-2907b9df9d5f")
-		(property "Reference" "C21"
+		(property "Reference" "C23"
 			(at 315.468 80.772 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13053,6 +12967,12 @@
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -13131,6 +13051,12 @@
 		(instances
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
 					(reference "#PWR034")
 					(unit 1)
 				)
@@ -13227,7 +13153,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "C?")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -13308,6 +13234,12 @@
 		(instances
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
 					(reference "C13")
 					(unit 1)
 				)
@@ -13412,7 +13344,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "Q?")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -13496,7 +13428,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -13592,7 +13524,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "C?")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -13610,7 +13542,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2aadac32-cc13-4285-b5bd-6ea50b4270a8")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR047"
 			(at 292.1 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -13672,6 +13604,12 @@
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -13769,7 +13707,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -13853,7 +13791,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -13870,7 +13808,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c03f553-49b9-4674-a2d4-b55e48b598ce")
-		(property "Reference" "C31"
+		(property "Reference" "C19"
 			(at 284.988 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13935,6 +13873,12 @@
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -14032,7 +13976,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -14049,7 +13993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30d47271-9ba0-42df-b851-6b9a98f4d8f2")
-		(property "Reference" "C30"
+		(property "Reference" "C31"
 			(at 401.066 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14117,6 +14061,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "C31")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14130,7 +14080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31d1b4c2-0b82-4d1e-872b-a4232f043cec")
-		(property "Reference" "C24"
+		(property "Reference" "C25"
 			(at 375.412 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14200,7 +14150,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "C4")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -14322,6 +14272,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14416,7 +14372,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -14500,7 +14456,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -14583,6 +14539,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14596,7 +14558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b8cc3a1-e8af-42de-b893-785f8bc39b6d")
-		(property "Reference" "C19"
+		(property "Reference" "C21"
 			(at 309.118 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14666,7 +14628,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "C5")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -14750,7 +14712,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -14835,6 +14797,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "C11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14848,7 +14816,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "41cd8c5d-52bc-4e12-96ab-38e928a92d2f")
-		(property "Reference" "C22"
+		(property "Reference" "C24"
 			(at 319.532 59.182 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14918,7 +14886,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "C3")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -15002,7 +14970,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -15085,7 +15053,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -15103,7 +15071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "444c5243-bdb9-4959-a646-9e3fda4866b5")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR051"
 			(at 316.23 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -15169,7 +15137,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -15253,7 +15221,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -15395,7 +15363,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "J?")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -15491,6 +15459,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15567,7 +15541,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "U?")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -15584,7 +15558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b9cda7d-039e-431c-8594-9677d8180fa5")
-		(property "Reference" "R35"
+		(property "Reference" "R34"
 			(at 382.27 68.834 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15652,7 +15626,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R4")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -15736,7 +15710,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -15820,7 +15794,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -15918,7 +15892,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -16003,7 +15977,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR02")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -16099,7 +16073,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "C?")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -16183,7 +16157,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -16267,7 +16241,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -16351,7 +16325,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -16369,7 +16343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c585659-cb3d-4e5e-8efa-9a8bb21bf268")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 304.8 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -16431,6 +16405,12 @@
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -16529,7 +16509,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -16609,6 +16589,12 @@
 		(instances
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
 					(reference "R25")
 					(unit 1)
 				)
@@ -16708,7 +16694,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -16806,7 +16792,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -16910,7 +16896,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "Q?")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -16927,7 +16913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6df3e5be-2b97-4c14-b233-6ef6db19b932")
-		(property "Reference" "R31"
+		(property "Reference" "R30"
 			(at 334.01 29.464 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16995,7 +16981,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R6")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -17091,6 +17077,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17104,7 +17096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f9969e6-e0ae-496b-b0d7-ec7d14b37d46")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR046"
 			(at 262.89 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -17166,6 +17158,12 @@
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -17243,6 +17241,12 @@
 		(instances
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
 					(reference "#PWR027")
 					(unit 1)
 				)
@@ -17347,7 +17351,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "Q?")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -17430,7 +17434,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -17447,7 +17451,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78110c79-73c3-450b-ace3-43d33b2c8faf")
-		(property "Reference" "C23"
+		(property "Reference" "C26"
 			(at 379.222 143.002 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17459,7 +17463,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 383.794 146.05 90)
+			(at 383.794 144.018 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17522,6 +17526,12 @@
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -17631,7 +17641,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "SW?")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -17729,7 +17739,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -17826,7 +17836,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "C?")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -17909,6 +17919,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17922,7 +17938,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bc483c2-f5f0-459b-b567-d6a75be83700")
-		(property "Reference" "C29"
+		(property "Reference" "C30"
 			(at 399.796 46.736 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17987,6 +18003,12 @@
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -18072,7 +18094,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "M?")
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -18166,7 +18188,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "Q2")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -18250,7 +18272,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -18348,7 +18370,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -18432,7 +18454,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -18516,7 +18538,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -18626,7 +18648,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "U?")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -18643,7 +18665,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f329821-24ec-47b8-9377-93a738549263")
-		(property "Reference" "C25"
+		(property "Reference" "C27"
 			(at 379.222 145.034 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18719,6 +18741,12 @@
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -18799,6 +18827,12 @@
 		(instances
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
 					(reference "#PWR044")
 					(unit 1)
 				)
@@ -18896,7 +18930,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "C?")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -18914,7 +18948,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a21c176a-6892-4608-80ea-3105708345ad")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 397.51 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -18976,6 +19010,12 @@
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -19060,6 +19100,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "C16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19073,7 +19119,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3ca5338-71bc-4ed3-be90-d7e309781c0d")
-		(property "Reference" "R32"
+		(property "Reference" "R31"
 			(at 337.82 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19136,6 +19182,12 @@
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -19219,7 +19271,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -19303,7 +19355,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -19400,7 +19452,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "C?")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -19483,7 +19535,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -19581,7 +19633,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -19666,6 +19718,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19746,7 +19804,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "U7")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -19830,7 +19888,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -19913,99 +19971,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 372.11 154.94 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "af64b2cb-83bd-46ae-950a-40619fe696a7")
-		(property "Reference" "C27"
-			(at 379.222 149.098 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 380.492 156.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 375.92 153.9748 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 372.11 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 372.11 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C14663"
-			(at 372.11 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d571dc6-a4eb-4a6d-a8bc-9ba1c1b4a137")
-		)
-		(pin "2"
-			(uuid "9f026868-af8e-46de-a366-abf5841f6db6")
-		)
-		(instances
-			(project "LEDSphere"
-				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
-					(reference "C27")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -20089,7 +20055,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -20107,7 +20073,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3c3f648-da09-4fc2-a839-b60c5377c9b8")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR050"
 			(at 316.23 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -20174,7 +20140,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR05")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -20271,7 +20237,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "C?")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -20375,7 +20341,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "Q?")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -20392,7 +20358,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbdc65fa-3a2c-4995-8f2f-f401ef9d5022")
-		(property "Reference" "R33"
+		(property "Reference" "R32"
 			(at 337.82 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20455,6 +20421,12 @@
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -20575,9 +20547,9 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "U2")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -20676,7 +20648,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -20775,7 +20747,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -20793,7 +20765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c26094d0-edcb-42f6-aab6-f073220bdd8e")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR053"
 			(at 321.31 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -20857,9 +20829,9 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR04")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -20943,7 +20915,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -21027,7 +20999,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -21131,7 +21103,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "Q?")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -21214,7 +21186,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -21231,8 +21203,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc9cc0da-43b5-49ac-8d91-4194565317b9")
-		(property "Reference" "C26"
-			(at 379.222 147.066 90)
+		(property "Reference" "C28"
+			(at 366.268 151.892 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21242,9 +21214,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 380.238 150.876 90)
-			(hide yes)
+		(property "Value" "50nF"
+			(at 366.268 154.178 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21310,6 +21281,12 @@
 					(unit 1)
 				)
 			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "C28")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21324,7 +21301,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cca635c8-9404-4c4a-9d1d-fd3647724b0a")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR054"
 			(at 382.27 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -21391,7 +21368,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR03")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -21501,7 +21478,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "SW?")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -21600,7 +21577,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -21727,9 +21704,9 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -21823,6 +21800,12 @@
 		(instances
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
 					(reference "U2")
 					(unit 1)
 				)
@@ -21927,7 +21910,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "Q?")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -22025,7 +22008,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -22103,6 +22086,12 @@
 		(instances
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
 					(reference "#PWR013")
 					(unit 1)
 				)
@@ -22187,7 +22176,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -22270,7 +22259,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -22354,7 +22343,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -22452,7 +22441,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -22548,7 +22537,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -22633,7 +22622,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -22650,7 +22639,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e046581c-a0cb-4e60-a876-55f7f033acb7")
-		(property "Reference" "C28"
+		(property "Reference" "C20"
 			(at 297.688 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22715,6 +22704,12 @@
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -22795,6 +22790,12 @@
 		(instances
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
 					(reference "#PWR043")
 					(unit 1)
 				)
@@ -22893,7 +22894,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -22991,7 +22992,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -23074,7 +23075,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -23158,7 +23159,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#FLG?")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -23255,7 +23256,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "L?")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -23347,9 +23348,9 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "Q1")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -23445,7 +23446,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "C?")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -23529,7 +23530,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -23547,7 +23548,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0bf7d1c-06b5-436f-b183-35f461bb2fca")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR049"
 			(at 306.07 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -23612,9 +23613,9 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR01")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -23698,7 +23699,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "U8")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -23782,7 +23783,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "#PWR?")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -23878,7 +23879,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "R?")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -23895,7 +23896,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f92c0d2f-3a9b-4467-b216-e06301723add")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 353.06 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23983,9 +23984,9 @@
 					(unit 1)
 				)
 			)
-			(project ""
+			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -24126,7 +24127,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "U?")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -24223,7 +24224,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "C?")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -24322,7 +24323,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "C?")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -24402,7 +24403,7 @@
 			)
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "U?")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -24482,6 +24483,12 @@
 		(instances
 			(project "LEDSphere"
 				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
 					(reference "R24")
 					(unit 1)
 				)
