@@ -11754,7 +11754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDSphere_Footprints:DIOM7959X262N"
+		(property "Footprint" "Footprints:DIOM7959X262N"
 			(at 259.08 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -14190,7 +14190,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEDSphere_Footprints:TRIM_3362P-1-203LF"
+		(property "Footprint" "Footprints:TRIM_3362P-1-203LF"
 			(at 193.04 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -17570,7 +17570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDSphere_Footprints:XKB5858-X-F-75"
+		(property "Footprint" "Footprints:XKB5858-X-F-75"
 			(at 29.21 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -18047,7 +18047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDSphere_Footprints:motor"
+		(property "Footprint" "Footprints:motor"
 			(at 267.97 143.256 0)
 			(hide yes)
 			(show_name no)
@@ -20463,7 +20463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEDSphere_Footprints:D0014A"
+		(property "Footprint" "Footprints:D0014A"
 			(at 347.98 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -21407,7 +21407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDSphere_Footprints:XKB5858-X-F-75"
+		(property "Footprint" "Footprints:XKB5858-X-F-75"
 			(at 53.34 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -21616,7 +21616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEDSphere_Footprints:SO-16N_STM"
+		(property "Footprint" "Footprints:SO-16N_STM"
 			(at 233.68 54.61 0)
 			(hide yes)
 			(show_name no)
