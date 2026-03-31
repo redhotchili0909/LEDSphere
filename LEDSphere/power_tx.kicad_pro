@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -60,7 +60,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_overlap|101526853|140342631|507b64fa-34fe-445a-aa9b-5fb3083c9fbc|a3ad303e-cd37-4230-863f-f929968d6a21",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -195,9 +200,7 @@
       ],
       "track_widths": [
         0.0,
-        0.1524,
         0.2032,
-        0.3048,
         0.508
       ],
       "tuning_pattern_settings": {
@@ -662,7 +665,7 @@
         "uuid": "f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
       }
     ],
-    "used_designators": "",
+    "used_designators": "L2",
     "variants": []
   },
   "sheets": [
