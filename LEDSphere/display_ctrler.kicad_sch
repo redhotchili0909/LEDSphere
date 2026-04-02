@@ -9025,7 +9025,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_lib:CUI_UJ20-C-V-C-1-SMT-TR"
+		(property "Footprint" "Footprints:CUI_UJ20-C-V-C-1-SMT-TR"
 			(at 33.02 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12800,7 +12800,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_lib:ESP01s_SMD"
+		(property "Footprint" "Footprints:ESP01s_SMD"
 			(at 246.38 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -13493,7 +13493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "project_lib:CUI_MSD-4-A"
+		(property "Footprint" "Footprints:CUI_MSD-4-A"
 			(at 13.97 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
