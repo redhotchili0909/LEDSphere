@@ -1,0 +1,61 @@
+(footprint "edge_contact_small"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "U205"
+		(at -0.15 -2.86 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "87efe0f6-2962-4194-90a6-3c27cc0bc261")
+		(effects
+			(font (size 1 1) (thickness 0.1))
+		)
+	)
+	(property "Value" "~"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b3d60417-4afa-4de3-bd00-c4eb037db63c")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9dad816-d46c-4300-b5fd-4bc777ad2e7f")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10e8edec-2cbc-4245-a150-baa3276f9baa")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at -0.15 -2.94 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "aca47761-0301-41fe-af97-694537412bdc")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 4.4 3.6)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cd2d2140-a94a-4809-96ae-e07837345da6")
+	)
+	(embedded_fonts no)
+)

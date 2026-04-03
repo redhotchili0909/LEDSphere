@@ -1,0 +1,62 @@
+(footprint "slot"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "U201"
+		(at -0.17 2.98 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "75724beb-1e38-4dfc-a1de-afcbb7f5364b")
+		(effects
+			(font (size 1 1) (thickness 0.1))
+		)
+	)
+	(property "Value" "~"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5f5161d7-8a65-4f38-9d27-b35417b59ed4")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "645d8924-f1cd-41ec-b9d7-e9c050484419")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76598036-39d8-4516-98da-5a8a11e66174")
+		(effects
+			(font (size 1.27 1.27) (thickness 0.15))
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "794b2f29-9fac-40f0-8cb8-77808a4f982e")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 17 3.7)
+		(drill oval 15 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(uuid "1859dd4e-ccd3-47e3-887c-d7b6077b6880")
+	)
+	(embedded_fonts no)
+)
