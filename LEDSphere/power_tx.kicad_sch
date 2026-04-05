@@ -6326,7 +6326,7 @@
 		)
 		(uuid "6875b4da-f095-4727-9767-e059e3f82638")
 	)
-	(text "Resonant Frequency: ~ 108kHz"
+	(text "Resonant Frequency: ~ 104kHz"
 		(exclude_from_sim no)
 		(at 358.14 171.704 0)
 		(effects
@@ -6408,7 +6408,7 @@
 		)
 		(uuid "a639ed53-587e-4215-ac6e-f31cdb9769ae")
 	)
-	(text "268nF in total!"
+	(text "400nF in total!"
 		(exclude_from_sim no)
 		(at 373.888 156.972 0)
 		(effects
@@ -6662,6 +6662,12 @@
 		(uuid "8b50abe5-3c75-422d-a3f0-6d5eafc87ab4")
 	)
 	(junction
+		(at 353.06 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8de7cc2a-e3bb-4c74-b17c-23ca6978da5b")
+	)
+	(junction
 		(at 40.64 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6846,6 +6852,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e38b8ca2-fb2e-40e3-ae7d-5f7130a450ad")
+	)
+	(junction
+		(at 365.76 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eabb4e9f-bace-4ee5-95b5-6ba1639db66d")
 	)
 	(junction
 		(at 198.12 46.99)
@@ -7148,6 +7160,16 @@
 			(type default)
 		)
 		(uuid "0b0d76a5-d4b6-4408-92a7-51cb72d28db8")
+	)
+	(wire
+		(pts
+			(xy 353.06 158.75) (xy 353.06 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd753da-7759-457b-a2c5-0424bef451f1")
 	)
 	(wire
 		(pts
@@ -7628,6 +7650,16 @@
 			(type default)
 		)
 		(uuid "2eb2fca6-a1ca-4235-b065-fa1e9004d082")
+	)
+	(wire
+		(pts
+			(xy 363.22 158.75) (xy 365.76 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa435e4-40ff-4af9-a515-d19d00771eed")
 	)
 	(wire
 		(pts
@@ -9571,6 +9603,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 158.75) (xy 365.76 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d08a10-61aa-4f72-b7fe-fbf8ce31bac7")
+	)
+	(wire
+		(pts
 			(xy 321.31 143.51) (xy 335.28 143.51)
 		)
 		(stroke
@@ -9791,6 +9833,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 158.75) (xy 353.06 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e01e7471-eeda-425c-8ed9-dcef16f85d08")
+	)
+	(wire
+		(pts
 			(xy 191.77 128.27) (xy 195.58 128.27)
 		)
 		(stroke
@@ -9878,6 +9930,16 @@
 			(type default)
 		)
 		(uuid "e602f4ac-9b2b-401d-bc0b-59a3fc628e32")
+	)
+	(wire
+		(pts
+			(xy 167.64 46.99) (xy 173.99 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e614a8df-06dd-4eb0-95f0-c361c019749f")
 	)
 	(wire
 		(pts
@@ -10298,6 +10360,16 @@
 			(justify left bottom)
 		)
 		(uuid "c0a89c3a-e46e-495c-9fce-a018dc6840e4")
+	)
+	(label "OSC"
+		(at 173.99 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfa26446-6f5b-4ba8-96db-6d7ce18c0c65")
 	)
 	(label "COM"
 		(at 317.5 163.83 180)
@@ -12175,7 +12247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 97.79 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -18415,6 +18487,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 359.41 158.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "91c65706-7ecb-4216-a896-e459ac0688e1")
+		(property "Reference" "C29"
+			(at 366.522 152.654 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "68nF"
+			(at 353.568 163.068 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 363.22 157.7848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 359.41 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 359.41 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 359.41 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4404de5-2f99-446d-b1db-87b4dc7baa6b")
+		)
+		(pin "2"
+			(uuid "ad15a84f-abc9-4b61-906a-d35610bd1bd9")
+		)
+		(instances
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 26.67 73.66 0)
 		(unit 1)
@@ -19435,7 +19599,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.1 uH"
+		(property "Value" "5.8 uH"
 			(at 389.89 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21156,7 +21320,7 @@
 		(dnp no)
 		(uuid "cc9cc0da-43b5-49ac-8d91-4194565317b9")
 		(property "Reference" "C28"
-			(at 353.568 155.702 90)
+			(at 366.522 150.876 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21168,6 +21332,7 @@
 		)
 		(property "Value" "68nF"
 			(at 353.568 157.988 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23748,6 +23913,85 @@
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 167.64 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f76114fd-6841-4e58-8bcd-703764b096e5")
+		(property "Reference" "TP3"
+			(at 166.37 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 170.18 44.9579 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 172.72 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 167.64 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c25d39e9-b5ca-4781-9ad8-04bc09f0bfbf")
+		)
+		(instances
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
