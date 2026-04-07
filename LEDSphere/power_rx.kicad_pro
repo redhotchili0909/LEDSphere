@@ -198,7 +198,8 @@
         0.1524,
         0.2032,
         0.254,
-        0.508
+        0.508,
+        1.524
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -680,7 +681,7 @@
         "uuid": "ddd18393-06be-4266-b885-a3f36c5c5ced"
       }
     ],
-    "used_designators": "C8",
+    "used_designators": "C8,C20-22",
     "variants": []
   },
   "sheets": [
