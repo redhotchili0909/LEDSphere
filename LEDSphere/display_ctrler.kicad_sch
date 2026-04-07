@@ -2747,7 +2747,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_Flash:W25Q128JVP"
+		(symbol "Memory_Flash:W25Q128JVS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2763,7 +2763,7 @@
 					)
 				)
 			)
-			(property "Value" "W25Q128JVP"
+			(property "Value" "W25Q128JVS"
 				(at 7.62 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2773,7 +2773,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
+			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
 				(at 0 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2795,7 +2795,7 @@
 					)
 				)
 			)
-			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
+			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
 				(at 0 27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2817,7 +2817,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "WSON*1EP*6x5mm*P1.27mm*EP3.4x4.3mm*"
+			(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2828,7 +2828,7 @@
 					)
 				)
 			)
-			(symbol "W25Q128JVP_0_1"
+			(symbol "W25Q128JVS_0_1"
 				(rectangle
 					(start -7.62 10.16)
 					(end 10.16 -10.16)
@@ -2841,7 +2841,7 @@
 					)
 				)
 			)
-			(symbol "W25Q128JVP_1_1"
+			(symbol "W25Q128JVS_1_1"
 				(pin input line
 					(at -10.16 7.62 0)
 					(length 2.54)
@@ -2979,24 +2979,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -12.7 90)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3996,172 +3978,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "RD40_display_SMD-rescue:CP-Device"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Device_CP"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CP-Device_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "CP-Device_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6655,12 +6471,6 @@
 		(uuid "1bf2e0f1-2a01-47ee-9d2e-74bee332f57b")
 	)
 	(junction
-		(at 76.2 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c7a2eaf-9a6f-41bf-a925-b52824d4ac2d")
-	)
-	(junction
 		(at 160.02 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6707,12 +6517,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30d9f4bd-6b88-4278-8573-9ca3c3e6ff1d")
-	)
-	(junction
-		(at 64.77 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4031f0bc-8ae9-4791-a8dd-ad04faf4370c")
 	)
 	(junction
 		(at 160.02 49.53)
@@ -6797,6 +6601,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b229828-39c9-41fd-b01e-f3bc01eaf47a")
+	)
+	(junction
+		(at 76.2 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d470caf-253b-41ac-98fb-c9275f2f07e3")
 	)
 	(junction
 		(at 196.85 44.45)
@@ -7102,7 +6912,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 38.1) (xy 85.09 38.1)
+			(xy 66.04 38.1) (xy 76.2 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8062,16 +7872,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 132.08) (xy 67.31 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7e4a40a-ad5b-4b1e-bf2d-6375a982e0bd")
-	)
-	(wire
-		(pts
 			(xy 160.02 59.69) (xy 160.02 63.5)
 		)
 		(stroke
@@ -8312,16 +8112,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 38.1) (xy 76.2 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c61f890e-271b-4eba-8663-b5bddeb4a695")
-	)
-	(wire
-		(pts
 			(xy 44.45 184.15) (xy 44.45 185.42)
 		)
 		(stroke
@@ -8449,6 +8239,16 @@
 			(type default)
 		)
 		(uuid "d9a5c939-3d9a-4a4c-bba2-ba670ad001a6")
+	)
+	(wire
+		(pts
+			(xy 76.2 38.1) (xy 85.09 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db584f5c-4284-4edd-bf73-4b6f4f6d664a")
 	)
 	(wire
 		(pts
@@ -10438,109 +10238,6 @@
 			(project "display_ctrler"
 				(path "/9292a425-4deb-48f6-8b98-43cd7d592040"
 					(reference "R304")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_Flash:W25Q128JVP")
-		(at 64.77 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17b9066b-1b8d-45bf-ab8d-7620ef5adf5a")
-		(property "Reference" "U101"
-			(at 76.2 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "W25Q128JVP"
-			(at 76.2 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
-			(at 64.77 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-			(at 64.77 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
-			(at 64.77 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "d0db74bb-e21b-4eb5-ac4e-29874b38563e")
-		)
-		(pin "2"
-			(uuid "bcee6727-2a81-4adb-906c-d8019f9ffbdc")
-		)
-		(pin "9"
-			(uuid "06d37501-12d4-4ea9-a6dc-ed8c07ec9302")
-		)
-		(pin "4"
-			(uuid "c8368704-3361-4fc4-bc7b-2d1286463c45")
-		)
-		(pin "8"
-			(uuid "8ecfd9fe-bb54-4b9d-8bfa-1c788bbbac91")
-		)
-		(pin "3"
-			(uuid "44e30090-dcf7-4c4a-b989-809fd80f36d2")
-		)
-		(pin "7"
-			(uuid "de3e7caf-1dae-4296-876c-79246802aea8")
-		)
-		(pin "1"
-			(uuid "2175e615-3fca-4f30-bad1-55897906a199")
-		)
-		(pin "6"
-			(uuid "900b8f65-3237-4757-b81b-22302319f6ae")
-		)
-		(instances
-			(project "display_ctrler"
-				(path "/9292a425-4deb-48f6-8b98-43cd7d592040"
-					(reference "U101")
 					(unit 1)
 				)
 			)
@@ -13048,98 +12745,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RD40_display_SMD-rescue:CP-Device")
-		(at 76.2 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "720dcb36-37f3-4867-ad7f-0b43b5f1c070")
-		(property "Reference" "C303"
-			(at 78.74 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10µF"
-			(at 78.74 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 77.1652 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C15850"
-			(at 76.2 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9448a61e-77e5-4a16-b5b7-8487191b9a7e")
-		)
-		(pin "2"
-			(uuid "7a4d5533-76f6-443d-b190-1e1e90e88dab")
-		)
-		(instances
-			(project "display_ctrler"
-				(path "/9292a425-4deb-48f6-8b98-43cd7d592040"
-					(reference "C303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 219.71 40.64 180)
 		(unit 1)
@@ -13314,6 +12919,96 @@
 			(project "display_ctrler"
 				(path "/9292a425-4deb-48f6-8b98-43cd7d592040"
 					(reference "R305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 76.2 41.91 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "78823f75-9513-4713-80aa-e1f4481d3d36")
+		(property "Reference" "C303"
+			(at 81.28 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 81.28 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 75.2348 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 76.2 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b917ed79-77a8-41c0-83aa-cb4455f0c4fe")
+		)
+		(pin "2"
+			(uuid "05cf87b5-b88d-4de4-849f-b4d79ea240c6")
+		)
+		(instances
+			(project "display_ctrler"
+				(path "/9292a425-4deb-48f6-8b98-43cd7d592040"
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -17095,6 +16790,106 @@
 			(project "display_ctrler"
 				(path "/9292a425-4deb-48f6-8b98-43cd7d592040"
 					(reference "R308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_Flash:W25Q128JVS")
+		(at 64.77 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f24be319-9aba-4387-8dc8-6a945aca996f")
+		(property "Reference" "U102"
+			(at 76.2 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W25Q128JVS"
+			(at 76.2 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+			(at 64.77 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+			(at 64.77 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
+			(at 64.77 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "9d3867b5-475c-4428-9264-b16e8dc35d8b")
+		)
+		(pin "4"
+			(uuid "ead51fc8-878a-4c95-9b7c-b7e5e7d520aa")
+		)
+		(pin "2"
+			(uuid "c93fe948-01ed-4ec0-9f5a-274ea28b1f06")
+		)
+		(pin "5"
+			(uuid "24a891a1-4242-483b-a0e1-63abaaf21ecf")
+		)
+		(pin "6"
+			(uuid "f805f598-874a-40a0-b8b7-6f6a86f25746")
+		)
+		(pin "8"
+			(uuid "4c3518bc-d598-4788-9d47-65bbbb1c1dd5")
+		)
+		(pin "7"
+			(uuid "ccccd47d-2885-4909-9db6-4d40374a1cad")
+		)
+		(pin "1"
+			(uuid "ff2bcd4b-4c15-4a6e-9d82-32caa5d0eaba")
+		)
+		(instances
+			(project "display_ctrler"
+				(path "/9292a425-4deb-48f6-8b98-43cd7d592040"
+					(reference "U102")
 					(unit 1)
 				)
 			)
