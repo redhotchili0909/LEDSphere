@@ -3120,284 +3120,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "New_Library:XKB5858-X-F-75"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 8.382 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "XKB5858-X-F-75_0_1"
-				(circle
-					(center -5.08 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 4.445 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -1.905) (xy 4.445 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 -1.905)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "XKB5858-X-F-75_1_1"
-				(polyline
-					(pts
-						(xy -5.08 1.27) (xy -5.08 -1.27)
-					)
-					(stroke
-						(width 1)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 -5.08 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 5.08 270)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 -5.08 90)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 5.08 270)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RD40_display_SMD-rescue:CP-Device"
 			(pin_numbers
 				(hide yes)
@@ -4317,6 +4039,170 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6494,12 +6380,6 @@
 		(uuid "124b92d4-ff24-4cad-836b-1d5acc68ca8a")
 	)
 	(junction
-		(at 55.88 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18271b65-f794-4a76-87ae-23f5c712bc1e")
-	)
-	(junction
 		(at 321.31 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6542,12 +6422,6 @@
 		(uuid "394ea52e-9881-4305-b7af-4550c56e1bcb")
 	)
 	(junction
-		(at 29.21 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a72af4c-7d6b-4b9a-aef9-8524b14b2a7c")
-	)
-	(junction
 		(at 170.18 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6564,12 +6438,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4dae0656-e1b1-4b33-bcfb-3c10c95b7f35")
-	)
-	(junction
-		(at 29.21 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f33b627-f1cd-4914-8b1d-187151688012")
 	)
 	(junction
 		(at 321.31 78.74)
@@ -6812,12 +6680,6 @@
 		(uuid "d7ae489d-c48a-43bc-9a08-2b17578ed27d")
 	)
 	(junction
-		(at 53.34 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db95e1f5-d90a-4030-9827-55a5b8e17031")
-	)
-	(junction
 		(at 195.58 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6934,16 +6796,8 @@
 		(uuid "2c3413dc-ae87-463a-b8de-88dec8c96878")
 	)
 	(no_connect
-		(at 24.13 137.16)
-		(uuid "34d4e7a9-c787-43bc-8282-c1925e6c3f98")
-	)
-	(no_connect
 		(at 41.91 66.04)
 		(uuid "355b4a1f-e780-45df-9885-aba5828679f5")
-	)
-	(no_connect
-		(at 48.26 137.16)
-		(uuid "4c165664-22f8-4e76-9013-76ad26dcaf24")
 	)
 	(no_connect
 		(at 327.66 86.36)
@@ -6958,10 +6812,6 @@
 		(uuid "c92eace1-6280-4660-8b0c-c75711a8df5b")
 	)
 	(no_connect
-		(at 24.13 147.32)
-		(uuid "ce552e42-fb48-48f4-b6be-ed81bcd42ac7")
-	)
-	(no_connect
 		(at 86.36 148.59)
 		(uuid "cfff50c5-da48-4bb9-b9ad-1aa4d0999599")
 	)
@@ -6972,10 +6822,6 @@
 	(no_connect
 		(at 19.05 73.66)
 		(uuid "f36ba073-1332-4ba8-ae68-6a4383a2f2b2")
-	)
-	(no_connect
-		(at 48.26 147.32)
-		(uuid "fc6f880f-c62a-49b3-bf7a-3b73243021b4")
 	)
 	(no_connect
 		(at 86.36 143.51)
@@ -6990,16 +6836,6 @@
 			(type default)
 		)
 		(uuid "01f60209-4235-4ac3-a479-47fdfb93c287")
-	)
-	(wire
-		(pts
-			(xy 58.42 135.89) (xy 53.34 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "025fe0b4-e601-412b-bb18-8a53d2f0b6bc")
 	)
 	(wire
 		(pts
@@ -7263,16 +7099,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 154.94) (xy 55.88 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1484e851-437d-4f0e-8b3c-20d41f07f626")
-	)
-	(wire
-		(pts
 			(xy 170.18 130.81) (xy 176.53 130.81)
 		)
 		(stroke
@@ -7523,7 +7349,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 133.35) (xy 53.34 133.35)
+			(xy 50.8 133.35) (xy 55.88 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7620,16 +7446,6 @@
 			(type default)
 		)
 		(uuid "2d64c77e-4c71-4313-a9d0-00571e0b2111")
-	)
-	(wire
-		(pts
-			(xy 58.42 154.94) (xy 55.88 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dcdbe05-b2ed-4e63-9121-b0d0a09ca41e")
 	)
 	(wire
 		(pts
@@ -8303,16 +8119,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 137.16) (xy 34.29 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "632cdc80-5be9-40ce-94f2-4f4985f0696b")
-	)
-	(wire
-		(pts
 			(xy 43.18 54.61) (xy 43.18 55.88)
 		)
 		(stroke
@@ -8440,16 +8246,6 @@
 			(type default)
 		)
 		(uuid "6b5998d9-b6c9-4e71-84cc-8babd9a14fac")
-	)
-	(wire
-		(pts
-			(xy 29.21 147.32) (xy 34.29 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bfdc496-d3f5-472f-87f9-ac97bd34e0ca")
 	)
 	(wire
 		(pts
@@ -8793,7 +8589,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 147.32) (xy 53.34 154.94)
+			(xy 55.88 147.32) (xy 55.88 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8913,7 +8709,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 133.35) (xy 53.34 135.89)
+			(xy 55.88 133.35) (xy 55.88 137.16)
 		)
 		(stroke
 			(width 0)
@@ -9000,16 +8796,6 @@
 			(type default)
 		)
 		(uuid "9c38caff-e60c-416f-8615-a3e6619d1c6b")
-	)
-	(wire
-		(pts
-			(xy 58.42 137.16) (xy 58.42 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c6e5add-725b-4bc1-acfb-fe85255c62b7")
 	)
 	(wire
 		(pts
@@ -9393,16 +9179,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 147.32) (xy 58.42 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2b69c7e-f3cc-49e5-973e-acca34e2ad0e")
-	)
-	(wire
-		(pts
 			(xy 148.59 156.21) (xy 148.59 162.56)
 		)
 		(stroke
@@ -9660,16 +9436,6 @@
 			(type default)
 		)
 		(uuid "d5542008-7126-4a4d-84fb-152b4893713e")
-	)
-	(wire
-		(pts
-			(xy 53.34 135.89) (xy 53.34 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5bbff7e-d588-4502-8795-a6617f875c47")
 	)
 	(wire
 		(pts
@@ -10100,16 +9866,6 @@
 			(type default)
 		)
 		(uuid "f291295f-4f3f-4156-9d50-efdfd9633636")
-	)
-	(wire
-		(pts
-			(xy 55.88 154.94) (xy 53.34 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f31f69b6-c714-4e50-9e8c-8de3b48b15ea")
 	)
 	(wire
 		(pts
@@ -11791,7 +11547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:DIOM7959X262N"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 259.08 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -13834,6 +13590,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 55.88 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2cc5dcc7-5840-46c8-97e5-63296ece28f6")
+		(property "Reference" "SW2"
+			(at 48.514 139.954 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 57.15 143.5099 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS"
+			(at 50.8 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 55.88 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c6ea70c-fbfe-49c8-bcaa-d957c3331b45")
+		)
+		(pin "2"
+			(uuid "e726b5d7-f6ef-42bf-9983-fadfce60489c")
+		)
+		(instances
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 134.62 135.89 0)
 		(mirror y)
@@ -15412,6 +15250,89 @@
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 29.21 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49c10324-f4d8-4714-8841-97c7b1c6d06c")
+		(property "Reference" "SW1"
+			(at 30.48 140.9699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 30.48 143.5099 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS"
+			(at 24.13 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 29.21 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9f9b300-83f6-43ca-8baa-5bc2149b7394")
+		)
+		(pin "2"
+			(uuid "5c88f98d-96a4-4c83-8fe5-2e92f1f5cfee")
+		)
+		(instances
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -17479,116 +17400,6 @@
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library:XKB5858-X-F-75")
-		(at 29.21 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7c055afc-c737-4fc5-a219-bd532ec88c8e")
-		(property "Reference" "SW1"
-			(at 22.86 150.876 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 35.56 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Footprints:XKB5858-X-F-75"
-			(at 29.21 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C780037.html"
-			(at 29.21 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C780037"
-			(at 29.21 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "157e04fa-851f-4320-b2f5-9673a848d020")
-		)
-		(pin "6"
-			(uuid "7cd56fec-06c6-49c4-be7f-868f4609c576")
-		)
-		(pin "5"
-			(uuid "ce9052c2-c554-4af8-b58f-a0d8820cbda0")
-		)
-		(pin "3"
-			(uuid "7e50f4d5-e900-41fb-a650-eaca9bfb052b")
-		)
-		(pin "1"
-			(uuid "594a7c3f-8c93-4e63-88a5-3054b2cbf457")
-		)
-		(pin "4"
-			(uuid "e1fc4aa8-49a9-4681-b1da-2d35ab11ee95")
-		)
-		(instances
-			(project "LEDSphere"
-				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-			(project "power_tx"
-				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -21190,17 +21001,6 @@
 				)
 			)
 		)
-		(property "LCSC" "C7420339"
-			(at 127 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "e8cdfd61-38f2-4519-8fcd-bdd24e5d6bd3")
 		)
@@ -21486,116 +21286,6 @@
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
 					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "New_Library:XKB5858-X-F-75")
-		(at 53.34 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cf07d5e1-ed15-4ad0-80b8-169e3edc1721")
-		(property "Reference" "SW2"
-			(at 49.022 150.622 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 59.69 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Footprints:XKB5858-X-F-75"
-			(at 53.34 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C780037.html"
-			(at 53.34 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C780037"
-			(at 53.34 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "95edecbf-6e2b-448c-b26a-c5c8495028be")
-		)
-		(pin "6"
-			(uuid "0dfce501-a148-4ba1-b88b-686ba296a530")
-		)
-		(pin "5"
-			(uuid "9fcdad8d-b20e-43a7-b198-2c6ba5877862")
-		)
-		(pin "3"
-			(uuid "62b5e287-45f3-4b07-b69f-eabf835bb50d")
-		)
-		(pin "1"
-			(uuid "7d4a4009-1baf-4522-af8d-a0784619b68e")
-		)
-		(pin "4"
-			(uuid "b12b7a06-5894-4bb7-8068-684fa7ddf980")
-		)
-		(instances
-			(project "LEDSphere"
-				(path "/8d0a4ff4-8029-4d05-9903-1dd7927a3bac/0ee5e47e-627d-4c69-9257-1bd070197563"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-			(project "power_tx"
-				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -23314,7 +23004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Bourns_SRP7028A_7.3x6.6mm"
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-3232"
 			(at 173.99 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -23338,17 +23028,6 @@
 		)
 		(property "Description" "Inductor"
 			(at 173.99 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5189958"
-			(at 173.99 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
