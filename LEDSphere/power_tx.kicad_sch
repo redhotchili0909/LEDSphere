@@ -11770,7 +11770,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C84256"
+		(property "LCSC" "LSM0805412V"
 			(at 146.05 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -13634,7 +13634,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/c-k/PTS645VK58-2-LFS/3861398"
 			(at 50.8 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -13647,6 +13647,17 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 55.88 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part #" "PTS645VK58-2 LFS"
+			(at 55.88 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14000,7 +14011,7 @@
 				)
 			)
 		)
-		(property "Description" "Trim-potentiometer"
+		(property "Description" "3362P-1-203LF"
 			(at 193.04 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -15301,7 +15312,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/c-k/PTS645VK58-2-LFS/3861398"
 			(at 24.13 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -15314,6 +15325,17 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 29.21 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part #" "PTS645VK58-2 LFS"
+			(at 29.21 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20106,7 +20128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 216.8652 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -23850,7 +23872,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22390236"
+		(property "Part #" "CD4017BM96"
 			(at 73.66 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -23957,7 +23979,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 206.7052 120.65 0)
 			(hide yes)
 			(show_name no)
