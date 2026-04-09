@@ -6380,6 +6380,12 @@
 		(uuid "124b92d4-ff24-4cad-836b-1d5acc68ca8a")
 	)
 	(junction
+		(at 388.62 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19508af5-01a9-4a7e-aac8-dae473e69e9d")
+	)
+	(junction
 		(at 321.31 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6666,6 +6672,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9c37c40-d417-49ad-80e7-8a2614fe9633")
+	)
+	(junction
+		(at 388.62 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c390ab17-1fad-4cd7-8db6-3ff7e33dcbb2")
 	)
 	(junction
 		(at 120.65 151.13)
@@ -7226,6 +7238,16 @@
 			(type default)
 		)
 		(uuid "20e8caaa-ea50-4918-a357-666ad7f2bb6d")
+	)
+	(wire
+		(pts
+			(xy 388.62 165.1) (xy 394.97 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f5dad6-4bbb-4e52-8240-ea742d4e5186")
 	)
 	(wire
 		(pts
@@ -9246,6 +9268,16 @@
 			(type default)
 		)
 		(uuid "c94d71ca-6bdb-484b-b81d-b8a1a259c0f1")
+	)
+	(wire
+		(pts
+			(xy 388.62 143.51) (xy 393.7 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a7ced2-34a1-4dfe-8793-b8238040eb58")
 	)
 	(wire
 		(pts
@@ -12003,7 +12035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 97.79 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -12139,6 +12171,85 @@
 			(project "power_tx"
 				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 394.97 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1455003b-60b9-47a3-886d-8e7de97550d4")
+		(property "Reference" "TP5"
+			(at 397.51 160.5279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 397.51 163.0679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 400.05 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 400.05 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 394.97 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "373115bd-c0b3-4e54-a23f-a02c039fd4b6")
+		)
+		(instances
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -17559,7 +17670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 143.51 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -20955,6 +21066,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 393.7 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c633ede4-66ea-4534-913b-f9c4dfef1757")
+		(property "Reference" "TP4"
+			(at 396.24 138.9379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 396.24 141.4779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 398.78 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 393.7 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5190737c-fae8-41a9-96c0-3a62a0e93843")
+		)
+		(instances
+			(project "power_tx"
+				(path "/f4cb5b8b-e797-4af7-88e9-03d9cedfe909"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 127 151.13 0)
 		(unit 1)
@@ -23653,7 +23843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
 			(at 172.72 46.99 0)
 			(hide yes)
 			(show_name no)
