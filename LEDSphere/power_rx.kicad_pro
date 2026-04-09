@@ -681,7 +681,7 @@
         "uuid": "ddd18393-06be-4266-b885-a3f36c5c5ced"
       }
     ],
-    "used_designators": "C8,C20-22,U114",
+    "used_designators": "C8,C20-22,U114,TP1-4,#PWR22",
     "variants": []
   },
   "sheets": [
