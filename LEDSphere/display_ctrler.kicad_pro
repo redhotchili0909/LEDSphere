@@ -737,7 +737,7 @@
         "uuid": "9292a425-4deb-48f6-8b98-43cd7d592040"
       }
     ],
-    "used_designators": "U102,C317,J1",
+    "used_designators": "U102,C317,R310,R314,J1,#PWR3,#PWR316,#PWR339,#PWR341-342,D1-2",
     "variants": []
   },
   "sheets": [
