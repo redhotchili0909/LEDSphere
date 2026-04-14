@@ -561,7 +561,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Screw_Terminal_01x03"
+		(symbol "Connector:Screw_Terminal_01x04"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -581,8 +581,8 @@
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x03"
-				(at 0 -5.08 0)
+			(property "Value" "Screw_Terminal_01x04"
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -602,7 +602,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -613,7 +613,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -646,10 +646,10 @@
 					)
 				)
 			)
-			(symbol "Screw_Terminal_01x03_1_1"
+			(symbol "Screw_Terminal_01x04_1_1"
 				(rectangle
 					(start -1.27 3.81)
-					(end 1.27 -3.81)
+					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -696,6 +696,18 @@
 				)
 				(polyline
 					(pts
+						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -0.3556 3.048) (xy 0.508 2.2098)
 					)
 					(stroke
@@ -730,6 +742,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center 0 2.54)
 					(radius 0.635)
@@ -754,6 +778,17 @@
 				)
 				(circle
 					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.08)
 					(radius 0.635)
 					(stroke
 						(width 0.1524)
@@ -810,6 +845,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6914,6 +6967,10 @@
 		(uuid "313a3b1f-6d8a-4c1f-b5d0-b3a4e4709379")
 	)
 	(no_connect
+		(at 190.5 124.46)
+		(uuid "40ac3a44-8d3a-4ad0-8ad5-9f863f0c2186")
+	)
+	(no_connect
 		(at 190.5 142.24)
 		(uuid "4689c919-4c36-4cef-8a60-081ac6ae6f30")
 	)
@@ -6954,10 +7011,6 @@
 		(uuid "86a81547-dfc5-4cca-8710-dc42e29655c0")
 	)
 	(no_connect
-		(at 190.5 129.54)
-		(uuid "95ab2e86-2a53-4945-a226-72a1201cff04")
-	)
-	(no_connect
 		(at 190.5 134.62)
 		(uuid "978f8926-1801-440f-a502-f94f3f96b49d")
 	)
@@ -6996,10 +7049,6 @@
 	(no_connect
 		(at 139.7 137.16)
 		(uuid "faf7b6d9-ed00-47cd-afab-88eedcfd6818")
-	)
-	(no_connect
-		(at 190.5 127)
-		(uuid "fc995826-277d-45cb-b876-63f1506f18c6")
 	)
 	(wire
 		(pts
@@ -7463,7 +7512,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 99.06) (xy 248.92 99.06)
+			(xy 247.65 99.06) (xy 248.92 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8453,16 +8502,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 105.41) (xy 245.11 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5485044-4cd4-4e3c-98ec-9e008d91ee5c")
-	)
-	(wire
-		(pts
 			(xy 190.5 121.92) (xy 193.04 121.92)
 		)
 		(stroke
@@ -8753,7 +8792,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 104.14) (xy 248.92 104.14)
+			(xy 247.65 106.68) (xy 248.92 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9059,30 +9098,6 @@
 			)
 		)
 	)
-	(global_label "LED_DATA"
-		(shape output)
-		(at 190.5 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0f4a148c-a6e3-41d1-a1b1-eacd93baba42")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.3147 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "SD_DAT3"
 		(shape bidirectional)
 		(at 76.2 158.75 0)
@@ -9131,6 +9146,30 @@
 			)
 		)
 	)
+	(global_label "LED_DATA"
+		(shape input)
+		(at 248.92 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ace049c-b0fb-44f5-9da3-281013fae4a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.1053 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SD_CMD"
 		(shape output)
 		(at 193.04 119.38 0)
@@ -9152,6 +9191,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "LED_CLK"
+		(shape input)
+		(at 248.92 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5be589a2-d35c-49dc-a30c-0dc4434b4f53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.952 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -9179,19 +9242,19 @@
 			)
 		)
 	)
-	(global_label "LED_DATA"
-		(shape input)
-		(at 248.92 101.6 180)
+	(global_label "LED_CLK"
+		(shape output)
+		(at 190.5 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "6c2ec3da-abdd-415b-977b-061e770bb1b5")
+		(uuid "6f91cc91-8eed-4503-b1dd-a98161f9f9bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.1053 101.6 0)
+			(at 201.468 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9199,7 +9262,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -9432,6 +9495,30 @@
 		(uuid "b764443d-27f2-4a51-8124-96b220c9d320")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 204.3063 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LED_DATA"
+		(shape output)
+		(at 190.5 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b952b0d7-a448-43c2-b5e8-9cd3f19c84bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.3147 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10565,7 +10652,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 245.11 105.41 0)
+		(at 247.65 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10576,7 +10663,7 @@
 		(fields_autoplaced yes)
 		(uuid "192b4d84-be84-45be-9c8a-212caf9d2459")
 		(property "Reference" "#PWR0335"
-			(at 245.11 111.76 0)
+			(at 247.65 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10587,7 +10674,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.11 110.49 0)
+			(at 247.65 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10597,7 +10684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 105.41 0)
+			(at 247.65 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10608,7 +10695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 105.41 0)
+			(at 247.65 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10619,7 +10706,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 105.41 0)
+			(at 247.65 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11963,6 +12050,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 254 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e876b7b-e87f-4c14-876e-20e33cdab0d8")
+		(property "Reference" "J1"
+			(at 256.54 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 256.54 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Footprints:PHOENIX_1727036"
+			(at 254 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 254 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9845ba70-09d1-4449-bea3-18c1bf5a52b7")
+		)
+		(pin "4"
+			(uuid "3a838ddc-3db8-436c-9705-da1db48d239c")
+		)
+		(pin "1"
+			(uuid "43ce5945-1600-46f7-b79f-6b47d9b0d915")
+		)
+		(pin "3"
+			(uuid "28407068-7fbb-42da-a422-5d683e2d2e33")
+		)
+		(instances
+			(project "display_ctrler"
+				(path "/9292a425-4deb-48f6-8b98-43cd7d592040"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 95.25 44.45 180)
 		(unit 1)
@@ -12506,7 +12681,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 245.11 99.06 0)
+		(at 247.65 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12517,7 +12692,7 @@
 		(fields_autoplaced yes)
 		(uuid "582f2b33-bb6d-40e0-aefb-a8ec84b00993")
 		(property "Reference" "#PWR02"
-			(at 245.11 102.87 0)
+			(at 247.65 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12528,7 +12703,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 245.11 93.98 0)
+			(at 247.65 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12538,7 +12713,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 99.06 0)
+			(at 247.65 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12549,7 +12724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 99.06 0)
+			(at 247.65 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12560,7 +12735,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 245.11 99.06 0)
+			(at 247.65 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15630,91 +15805,6 @@
 			(project "display_ctrler"
 				(path "/9292a425-4deb-48f6-8b98-43cd7d592040"
 					(reference "C310")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 254 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcbe9c71-9770-4c40-9427-1351eff8c77d")
-		(property "Reference" "J103"
-			(at 256.54 100.3299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x03"
-			(at 256.54 102.8699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Footprints:GCT_TAD05-03-1-L-G_REVA"
-			(at 254 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 254 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e5cb40be-5a74-4f19-9c72-af5809e967fd")
-		)
-		(pin "3"
-			(uuid "33300479-8fcc-4454-b525-d18854ce37be")
-		)
-		(pin "1"
-			(uuid "09268152-cee8-4169-ac1e-bf2da6f5a2f8")
-		)
-		(instances
-			(project "display_ctrler"
-				(path "/9292a425-4deb-48f6-8b98-43cd7d592040"
-					(reference "J103")
 					(unit 1)
 				)
 			)
